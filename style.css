@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: white;
+    font-family: 'Science Gothic', sans-serif;
 }
 .navigation ul {
     display: flex;
