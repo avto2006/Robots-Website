@@ -72,6 +72,13 @@ main {
     width: 300px;
 }
 
+.cards {
+    align-items: center;
+    display: flex;
+    gap: 8vh;
+    border-radius: 12px;
+}
+
 .section_4 {
     display: grid;
     margin-top: 25vh;
