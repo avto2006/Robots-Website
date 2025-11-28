@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
 }
-.section_1 ul {
+.navigation ul {
     display: flex;
     gap: 3vh;
     justify-content: center;
