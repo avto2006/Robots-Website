@@ -49,7 +49,7 @@ a {
 }
 
 main {
-    display: flex;
+    display: grid;
     justify-content: center;
     margin-top: 25vh;
 } 
@@ -58,13 +58,17 @@ main {
     margin-top: 7vh;
 }
 
-.section_2 {
+.section_2,.section_3 {
     display: flex;
     justify-content: center;
     gap: 15vh;
 }
 
-.img1 {
+.section_3 {
+    margin-top: 25vh;
+}
+
+.img1,.img2 {
     width: 300px;
 }
 
