@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: white;
 }
-.section_2 ul {
+.section_1 ul {
     display: flex;
     gap: 3vh;
     justify-content: center;
@@ -14,8 +14,14 @@ ul {
     list-style: none;
 }
 
+.section_2 ul li:hover {
+    color: green;
+    transition: 0.5 ease-in;
+}
+
 a {
     text-decoration: none;
+    color: white;
 }
 
 .contact {
@@ -23,15 +29,22 @@ a {
     
 }
 
-.cont {
+ 
+
+.cont{
     color: white;
     border-radius: 12px;
     border: 2px dashed green;
     padding: 1vh;
 }
 
-.cont:hover {
-    background-color: green;
+.nav  li a:hover {
+    color: green;
+    transition: 0.5s ease-in;
+}
+
+.cont:hover{
+    background-color: rgb(196, 234, 196);
     transition: 0.5s ease-in;
 }
 
