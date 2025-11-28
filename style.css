@@ -98,6 +98,19 @@ main {
     color: green;
 }
 
+.section_5 {
+    display: flex;
+    justify-content: center;
+    gap: 18vh;
+    margin-top: 20vh;
+    background-image: url('img/background1.png');
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
 
 
 
