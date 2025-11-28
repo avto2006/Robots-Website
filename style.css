@@ -91,9 +91,7 @@ main {
 }
 
 .section_4 {
-    display: grid;
     margin-top: 25vh;
-    grid-template-columns: repeat(4px, 2fr);
 }
 
 
