@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+}
+.section_2 ul {
+    display: flex;
+    gap: 3vh;
+    justify-content: center;
+    margin-left: 30vh;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contact {
+    margin-left: 30vh;
+    
+}
+
+.cont {
+    color: white;
+    border-radius: 12px;
+    border: 2px dashed green;
+    padding: 1vh;
+}
+
+.cont:hover {
+    background-color: green;
+    transition: 0.5s ease-in;
+}
+
