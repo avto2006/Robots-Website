@@ -77,6 +77,13 @@ main {
     display: flex;
     gap: 8vh;
     border-radius: 12px;
+
+}
+
+.card {
+        background-color: rgb(33, 33, 33);
+        border-radius: 12px;
+        padding: 2vh;
 }
 
 .section_4 {
