@@ -58,7 +58,7 @@ main {
     margin-top: 7vh;
 }
 
-.section_2,.section_3 {
+.section_2,.section_3,.section_4 {
     display: flex;
     justify-content: center;
     gap: 15vh;
