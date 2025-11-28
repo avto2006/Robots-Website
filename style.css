@@ -14,17 +14,14 @@ ul {
     list-style: none;
 }
 
-.section_2 ul li:hover {
-    color: green;
-    transition: 0.5 ease-in;
-}
+
 
 a {
     text-decoration: none;
     color: white;
 }
 
-.contact {
+.cont    {
     margin-left: 30vh;
     
 }
@@ -38,13 +35,16 @@ a {
     padding: 1vh;
 }
 
-.nav  li a:hover {
+.nav li a:hover {
     color: green;
     transition: 0.5s ease-in;
 }
 
-.cont:hover{
-    background-color: rgb(196, 234, 196);
-    transition: 0.5s ease-in;
+.nav li .cont:hover {
+    background-color: green;
+    transition: 0.8s ease-in;
+    color: black;
 }
+
+
 
