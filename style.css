@@ -22,12 +22,9 @@ a {
     color: white;
 }
 
-.cont    {
+.cont{
     margin-left: 30vh;
-    
 }
-
- 
 
 .cont{
     color: white;
@@ -49,6 +46,26 @@ a {
 
 .spn1 {
     color: green;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+} 
+
+.text_area {
+    margin-top: 7vh;
+}
+
+.section_2 {
+    display: flex;
+    justify-content: center;
+    gap: 15vh;
+}
+
+.img1 {
+    width: 300px;
 }
 
 
