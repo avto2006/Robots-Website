@@ -84,7 +84,7 @@ main {
     display: flex;
     gap: 8vh;
     border-radius: 12px;
-
+   justify-content: center;
 }
 
 .rbImg {
@@ -244,9 +244,25 @@ main {
     border-radius: 15px;
 }
 
-.text_area5 {
+.text_area5,.text_area6 {
     text-align: center;
 }
 
+.section_10 {
+    display: grid;
+    justify-self: center
+}
+
+.project_boxes {
+    display: flex;
+    gap: 35vh;
+    margin-top: 18vh;
+}
+
+.project_box {
+    background-color:  rgb(33, 33, 33);
+      padding: 5vh;
+    border-radius: 15px;
+}
 
 
