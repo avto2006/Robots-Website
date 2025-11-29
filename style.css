@@ -28,7 +28,8 @@ a {
     margin-left: 30vh;
 }
 
-.cont,.clck,.clck2,.join,.sub{
+.cont,.clck,.clck2,.join,.sub,
+.subscribe{
     color: white;
     border-radius: 12px;
     border: 2px dashed green;
@@ -45,7 +46,8 @@ a {
 .clck:hover,
 .clck2:hover,
 .join:hover,
-.sub:hover {
+.sub:hover,
+.subscribe:hover {
     background-color: green;
     transition: 0.8s ease-in;
     color: black;
@@ -143,7 +145,8 @@ main {
     margin-top: 8vh;
 }
 
-.clck,.clck2,.join,.sub {
+.clck,.clck2,.join,.sub,
+.subscribe {
     margin-top: 5vh;
     width: 100px;
 }
@@ -332,7 +335,24 @@ input {
     border-radius: 12px;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 25vh;
+    background-color:  rgb(33, 33, 33);
+    justify-content: center;
+    gap: 25vh;
+}
 
+.rbt {
+    width: 400px;
+}
+
+
+
+.subscribe {
+    text-align: center;
+}
 
 
 
