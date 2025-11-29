@@ -174,8 +174,13 @@ main {
 
 .section_8{
     margin-top: 25vh;
-    display: flex;
+    display: grid;
     justify-content: center;
+}
+
+.team_boxes {
+    margin-top: 8vh;
+    display: flex;
 }
 
 
