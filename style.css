@@ -3,6 +3,8 @@ body {
     color: white;
     font-family: 'Science Gothic', sans-serif;
 }
+
+
 .navigation ul {
     display: flex;
     gap: 3vh;
