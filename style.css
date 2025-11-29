@@ -28,7 +28,7 @@ a {
     margin-left: 30vh;
 }
 
-.cont,.clck,.clck2{
+.cont,.clck,.clck2,.join{
     color: white;
     border-radius: 12px;
     border: 2px dashed green;
@@ -43,7 +43,8 @@ a {
 
 .nav li .cont:hover,
 .clck:hover,
-.clck2:hover {
+.clck2:hover,
+.join:hover {
     background-color: green;
     transition: 0.8s ease-in;
     color: black;
@@ -141,7 +142,7 @@ main {
     margin-top: 8vh;
 }
 
-.clck,.clck2 {
+.clck,.clck2,.join {
     margin-top: 5vh;
     width: 100px;
 }
@@ -199,6 +200,16 @@ main {
      background-color:  rgb(33, 33, 33);
      padding: 3vh;
      border-radius: 15px;
+}
+
+.join {
+    text-align: center;
+    margin-top: 3vh;
+    margin: 0 auto;
+}
+
+.jn3 {
+    margin-top: 2vh;
 }
 
 
