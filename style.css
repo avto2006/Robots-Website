@@ -212,5 +212,35 @@ main {
     margin-top: 2vh;
 }
 
+.section_9 {
+    display: grid;
+    margin: 25vh;
+    justify-content: center;
+}
+
+.testim1 {
+    margin-left: 8vh;
+}
+
+.photo {
+    display: flex;
+    gap: 35vh;
+}
+
+.men,.oth {
+    width: 50px;
+}
+
+.testimonial_boxes {
+    display: flex;
+    gap: 18vh;
+    margin-top: 10vh;
+}
+
+.text_area5 {
+
+    text-align: center;
+}
+
 
 
