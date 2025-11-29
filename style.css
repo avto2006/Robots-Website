@@ -172,5 +172,11 @@ main {
     
 }
 
+.section_8{
+    margin-top: 25vh;
+    display: flex;
+    justify-content: center;
+}
+
 
 
