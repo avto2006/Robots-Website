@@ -233,12 +233,18 @@ main {
 
 .testimonial_boxes {
     display: flex;
-    gap: 18vh;
+    gap: 12vh;
     margin-top: 10vh;
+    
+}
+
+.tsmBox {
+    background-color:  rgb(33, 33, 33);
+    padding: 5vh;
+    border-radius: 15px;
 }
 
 .text_area5 {
-
     text-align: center;
 }
 
