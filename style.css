@@ -123,6 +123,19 @@ main {
     border-radius: 12px;
 }
 
+.section_6 {
+    display: flex;
+    margin-top: 25vh;
+}
+
+.small_texts {
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+
+.small_text2 {
+    margin-top: 8vh;
+}
 
 
 
