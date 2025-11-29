@@ -28,22 +28,25 @@ a {
     margin-left: 30vh;
 }
 
-.cont{
+.cont,.clck{
     color: white;
     border-radius: 12px;
     border: 2px dashed green;
     padding: 1vh;
 }
 
-.nav li a:hover {
+.nav li a:hover
+ {
     color: green;
     transition: 0.5s ease-in;
 }
 
-.nav li .cont:hover {
+.nav li .cont:hover,
+.clck:hover {
     background-color: green;
     transition: 0.8s ease-in;
     color: black;
+    cursor: pointer;
 }
 
 .spn1 {
@@ -135,6 +138,11 @@ main {
 
 .small_text2 {
     margin-top: 8vh;
+}
+
+.clck {
+    margin-top: 5vh;
+    width: 100px;
 }
 
 
