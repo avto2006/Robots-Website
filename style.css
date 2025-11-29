@@ -244,13 +244,17 @@ main {
     border-radius: 15px;
 }
 
-.text_area5,.text_area6 {
+.text_area5,.text_area6,.text_area7 {
     text-align: center;
 }
 
-.section_10 {
+.section_10,.section_11 {
     display: grid;
     justify-self: center
+}
+
+.section_11 {
+    margin-top: 25vh;
 }
 
 .project_boxes {
@@ -265,4 +269,33 @@ main {
     border-radius: 15px;
 }
 
+.pricing_boxes {
+    display: flex;
+    gap: 35vh;
+    margin-top: 8vh;
+    text-align: center;
+   
+}
+
+.prm {
+    color: gold;
+}
+
+.prc {
+    text-decoration: underline;
+}
+
+
+.pricing_box {
+        background-color:  rgb(33, 33, 33);
+      padding: 5vh;
+    border-radius: 15px;
+    padding-bottom: 12vh;
+}
+
+
+
+ol {
+    padding-top: 5vh;
+}
 
