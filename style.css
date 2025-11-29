@@ -342,6 +342,7 @@ footer {
     background-color:  rgb(33, 33, 33);
     justify-content: center;
     gap: 25vh;
+    border-radius: 12px;
 }
 
 .rbt {
