@@ -28,7 +28,7 @@ a {
     margin-left: 30vh;
 }
 
-.cont,.clck,.clck2,.join{
+.cont,.clck,.clck2,.join,.sub{
     color: white;
     border-radius: 12px;
     border: 2px dashed green;
@@ -44,7 +44,8 @@ a {
 .nav li .cont:hover,
 .clck:hover,
 .clck2:hover,
-.join:hover {
+.join:hover,
+.sub:hover {
     background-color: green;
     transition: 0.8s ease-in;
     color: black;
@@ -142,7 +143,7 @@ main {
     margin-top: 8vh;
 }
 
-.clck,.clck2,.join {
+.clck,.clck2,.join,.sub {
     margin-top: 5vh;
     width: 100px;
 }
@@ -153,6 +154,12 @@ main {
 
 .photo_area3 {
     margin-left: 30vh;
+}
+
+.sub {
+    margin-top: 1vh;
+    text-align: center;
+    margin-left: 5vh;
 }
 
 .img3 {
@@ -298,4 +305,37 @@ main {
 ol {
     padding-top: 5vh;
 }
+
+.section_12 {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: grid;
+    gap: 3vh;
+    justify-content: center;
+}
+
+.section_12 {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    gap: 15vh;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+
 
