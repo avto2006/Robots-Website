@@ -172,6 +172,7 @@ main {
     
 }
 
+
 .section_8{
     margin-top: 25vh;
     display: grid;
@@ -181,6 +182,23 @@ main {
 .team_boxes {
     margin-top: 8vh;
     display: flex;
+    gap: 20vh;
+    align-items: center;
+}
+
+.tm1 {
+    width: 235px;
+}
+
+
+.tmbox1,.tmbox2,.tmbox3 {
+    height: 68vh;
+}
+
+.team_box {
+     background-color:  rgb(33, 33, 33);
+     padding: 3vh;
+     border-radius: 15px;
 }
 
 
